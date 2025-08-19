@@ -1,0 +1,17 @@
+{
+  "name": "collect data for engineering metrics",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-powertoys"
+      ]
+    }
+  }
+}
